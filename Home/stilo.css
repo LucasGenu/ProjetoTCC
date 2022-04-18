@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&family=Montserrat:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-color: #0D0D1F;
+}
+.header{
+    width:100%;
+    height: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Montserrat';
+    justify-content: space-between;
+    background: #0D0D1F;
+    height: 4vh;
+    position: fixed;
+    z-index:100;
+}
+.logo{
+    position: absolute;
+    width: 310px;
+    height: 109px;
+    left: 108px;
+    top: 7px;
+    
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.singUp{
+    background-color: #F47E02 ;
+    border-radius: 8px;
+    padding: 20px;
+    margin-right: 70px;
+    color: black;
+    left: 732px;
+    top: 37px;
+ }
+.header ul li{
+    list-style:none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.header ul li a{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+}
+.header li a::after{
+    content: '';
+    height: 3px;
+    width:0px;
+    background-color: #F47E02 ;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.header li a:hover::after{
+    width:100%;
+}
+.TDiscover{
+    position: absolute;
+    width: 548px;
+    height: 225px;
+    left: 180px;
+    top: 320px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60.25px;
+    line-height: 125%;
+    color: white;
+}
+.TweTrack{
+    position: absolute;
+    width: 585px;
+    height: 72px;
+    left: 180px;
+    top: 600px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: white;    
+}
+.Mundo{
+    position: absolute;
+    width: 688px;
+    height: 651px;
+    left: 1100px;
+    top: 150px;
+        
+}
