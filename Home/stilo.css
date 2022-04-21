@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-color: #0D0D1F;
+}
+.header{
+    width:100%;
+    height: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Montserrat';
+    justify-content: space-between;
+    background: #0D0D1F;
+    height: 4vh;
+    position: sticky;
+    z-index:100;
+}
+.logo{
+    position: absolute;
+    width: 310px;
+    height: 109px;
+    left: 108px;
+    top: 7px;
+    
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.singUp{
+    background-color: #F47E02 ;
+    border-radius: 8px;
+    padding: 20px;
+    margin-right: 70px;
+    color: black;
+    left: 732px;
+    top: 37px;
+ }
+.header ul li{
+    list-style:none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.header ul li a{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+}
+.header li a::after{
+    content: '';
+    height: 3px;
+    width:0px;
+    background-color: #F47E02 ;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.header li a:hover::after{
+    width:100%;
+}
+
+    /*FIM DO HEADER */
+
+    .TDiscover{
+    position: absolute;
+    width: 548px;
+    height: 225px;
+    left: 180px;
+    top: 320px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60.25px;
+    line-height: 125%;
+    color: white;
+}
+.TweTrack{
+    position: absolute;
+    width: 585px;
+    height: 72px;
+    left: 180px;
+    top: 600px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: white;    
+}
+.Mundo{
+    position: absolute;
+    width: 688px;
+    height: 651px;
+    left: 1000px;
+    top: 150px;
+}
+.Btn_Get{
+    
+    position: absolute;
+    width: 219px;
+    height: 68px;
+    left: 91px;
+    top: 357px;
+}
+
+    /*FIM DA PARTE UM */
+
+.parte2{
+    width: 100%;
+    height: 175vh;
+    background: rgba(0, 0, 0, 0.07);
+}
+.tHelping{
+    position: absolute;
+    width: 700px;
+    height: 58px;
+    left: 610px;
+    top: 1030px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 58px;
+}
+.Google{
+    position: absolute;
+    width: 204px;
+    height: 67px;
+    left: 170px;
+    top: 1150px;
+}
+.Slack{
+    position: absolute;
+    width: 204px;
+    height: 67px;
+    left: 570px;
+    top: 1150px;
+}
+.Netflix{
+    position: absolute;
+    width: 204px;
+    height: 67px;
+    left: 1050px;
+    top: 1150px;
+}
+.Amazon{
+    position: absolute;
+    width: 204px;
+    height: 67px;
+    left: 1430px;
+    top: 1150px;
+}
+.Know{
+    position: absolute;
+    width: 580px;
+    height: 106px;
+    left: 200px;
+    top: 1400px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 43px;
+    line-height: 53px;
+    
+    color: #000000;
+}
+.Acess{
+    position: absolute;
+    width: 584px;
+    height: 74px;
+    left: 200px;
+    top: 1550px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 37px;
+    
+    color: #000000;
+}
+.Mundo2{
+    position: absolute;
+    width: 610px;
+    height: 453px;
+    left: 1050px;
+    top: 1250px;
+}
+.Apresentacao{
+    position: absolute;
+    width: 745px;
+    height: 715px;
+    left: 130px;
+    top: 1810px;
+}
+.Tloren{
+    position: absolute;
+    width: 600px;
+    height: 92px;
+    left: 1000px;
+    top: 2000px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 37px;
+    line-height: 46px;
+    text-align: right;
+    
+    color: #000000;
+}
+.Tnullam{
+    position: absolute;
+    width: 357px;
+    height: 102px;
+    left: 1240px;
+    top: 2100px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 34px;
+    text-align: right;
+    
+    color: #000000;
+}
+    /* FIM DA PARTE DOIS*/
+
+.parte3{
+    width: 100%;
+    height: 175vh;
+    background: #0D0D1F;
+}
+.Mancha{
+    position: absolute;
+    width: 978px;
+    height: 942px;
+    left: 830px;
+    top: 2600px;
+}
+.TrendyNow{
+    position: absolute;
+    width: 603px;
+    height: 429px;
+    left: 1062px;
+    top: 2860px;
+}
+.Tloren2{
+    position: absolute;
+    width: 600.91px;
+    height: 92px;
+    left: 195px;
+    top: 2950px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 46px;
+    
+    color: #FFFFFF;    
+}
+.Tnullam2{
+    position: absolute;
+    width: 357px;
+    height: 102px;
+    left: 195px;
+    top: 3050px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 34px;
+    
+    color: #FFFFFF;    
+}
